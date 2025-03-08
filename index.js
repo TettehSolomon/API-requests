@@ -31,4 +31,11 @@ fetchData();
 /*In JavaScript, asynchronous programming allows you to perform tasks
  without blocking the execution of other code. This is especially useful
   when dealing with tasks like fetching data from a server, reading files,
-   or setting timers—anything that might take some time to complete.*/
+   or setting timers—anything that might take some time to complete.
+   
+   
+   Asynchronous JavaScript functions, often simply called async functions,
+    are a key part of modern JavaScript programming. They allow you to write
+     asynchronous code that is more readable and easier to follow compared to
+      traditional callback-based or .then()-based code with Promises.
+   */
