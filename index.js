@@ -38,4 +38,23 @@ fetchData();
     are a key part of modern JavaScript programming. They allow you to write
      asynchronous code that is more readable and easier to follow compared to
       traditional callback-based or .then()-based code with Promises.
+
+
+
+
+      Here's a quick rundown of async functions:
+
+Defining an Async Function: To define an async function, simply add the async keyword before the function keyword. For example:
+
+javascript
+async function fetchData() {
+    return "Data fetched!";
+}
+Returning Promises: An async function always returns a Promise, even if you return a non-Promise value. For example:
+
+javascript
+async function sayHello() {
+    return "Hello!";
+}
+sayHello().then(message => console.log(message)); 
    */
